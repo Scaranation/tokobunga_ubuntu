@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAVEH ROSES</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #667BC6; 
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9); 
+        }
+        nav {
+            position: relative; 
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding-top: 80px; 
+            padding-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            margin-top: 60px; 
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .flower {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#hubungi">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+        <h1>KAVEH ROSES</h1>
+        <p>Tempat jual beli aneka bunga</p>
+    </header>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Kami</h2>
+            <p>Toko "KAVEH ROSES" menjual aneka bunga dengan harga murah.</p>
+        </section>
+
+        <section id="produk">
+            <h2>ANEKA PILIHAN BUNGA</h2>
+            <div class="flower">
+                <h3>Roses</h3>
+                <h4>List Harga</h4>
+                <p>IDR 50.000/Piece</p>
+                <p>IDR 200.000/Bucket</p>
+            </div>
+            <div class="flower">
+                <h3>Tulips</h3>
+                <h4>List Harga</h4>
+                <p>IDR 90.000/Piece</p>
+                <p>IDR 500.000/Bucket</p>
+            </div>
+            <div class="flower">
+                <h3>Sunflowers</h3>
+                <h4>List Harga</h4>
+                <p>IDR 100.000/Piece</p>
+                <p>IDR 700.000/Bucket</p>
+            </div>
+            <div class="flower">
+                <h3>Orchids</h3>
+                <h4>List Harga</h4>
+                <p>IDR 20.000/Piece</p>
+                <p>IDR 260.000/Bucket</p>
+            </div>
+        </section>
+
+        <section id="hubungi">
+            <h2>Hubungi Kami</h2>
+            <ul>
+                <li>Email: kavehroses@gmail.com</li>
+                <li>Phone: +62-881-1751-3441</li>
+                <li>Address: Arief Rahman Hakim No.100 Surabaya</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KAVEH-ROSES. All rights reserved.</p>
+    </footer>
+</body>
+</html>
